@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2016",
+            "dom"
+        ],
+        "target": "es6",
+        "module": "amd",
+        "sourceMap": true,
+        // "outFile": "dist/all.js",
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        }
+    },
+    "include": [
+        // "src/import-export-test/**/*"
+        "src/**/*"
+    ],
+    "exclude": [
+     
+    ]
+}
