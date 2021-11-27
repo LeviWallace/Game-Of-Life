@@ -11,5 +11,6 @@ logs
 dist/**/*
 !dist/index.html
 !dist/require.js
+!dist/canvas.css
 .DS_Store
 Thumbs.db
